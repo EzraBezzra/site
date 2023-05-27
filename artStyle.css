@@ -1,0 +1,15 @@
+body {
+    background-color: #dfdfdf;
+    color: #000000;
+    font-size: 14pt;
+    font-family: 'Ubuntu', sans-serif;
+
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+img {
+    height: 480px;
+    width: auto;
+    border: 5px solid #555555;
+  }
