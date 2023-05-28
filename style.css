@@ -3,7 +3,7 @@ h1 {
 }
 
 body {
-    background-color: #dfdfdf;
+    background-color: #ffffff;
     color: #000000;
     font-size: 14pt;
     font-family: 'Ubuntu', sans-serif;
@@ -77,4 +77,20 @@ active {
     color: yellow;
     background-color: transparent;
     text-decoration: underline;
+}
+
+#rp3plusSiteArt {
+    height: 320px;
+    width: auto;
+    position: absolute;
+    left: 2rem;
+    top: 6rem;
+}
+
+#tromboneSiteArt {
+    height: 240px;
+    width: auto;
+    position: absolute;
+    right: 2rem;
+    top: 22rem;
 }
