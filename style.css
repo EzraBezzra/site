@@ -6,11 +6,11 @@ body {
     background-color: #ffffff;
     color: #000000;
     font-size: 14pt;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Nunito', sans-serif;
 
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 45%;
 }
 
 body bold {
@@ -32,7 +32,7 @@ a:hover {
 nav ul {
     padding-left: 0;
     width: 100%;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
     list-style: none;
     display: flex;
     justify-content: center
@@ -48,15 +48,15 @@ nav ul li {
 }
 
 nav ul li:nth-child(1) {
-    border-bottom: 4px solid #5f5f5f
+    border-bottom: 4px solid red
 }
 
 nav ul li:nth-child(2) {
-    border-bottom: 4px solid #5f5f5f
+    border-bottom: 4px solid green
 }
 
 nav ul li:nth-child(3) {
-    border-bottom: 4px solid #5f5f5f
+    border-bottom: 4px solid blue
 }
 
 link {
@@ -103,6 +103,7 @@ active {
 
 .bgBox {
     background-color: #b9ecff;
-    outline: 6px solid #b9ecff;
-    box-shadow: 12px 12px #888888;
+    outline: 2px solid #000000;
+    outline-offset: 8px;
+    box-shadow: 0 0 0 8px #b9ecff, 20px 20px #888888;
 }
