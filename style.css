@@ -102,8 +102,8 @@ active {
 }
 
 .bgBox {
-    background-color: #b9ecff;
+    background-color: #dfdfdf;
     outline: 2px solid #000000;
     outline-offset: 8px;
-    box-shadow: 0 0 0 8px #b9ecff, 20px 20px #888888;
+    box-shadow: 0 0 0 8px #dfdfdf , 20px 20px #888888;
 }
