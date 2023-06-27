@@ -1,109 +1,103 @@
-h1 {
-    text-align: center
-}
-
 body {
-    background-color: #ffffff;
-    color: #000000;
-    font-size: 14pt;
-    font-family: 'Nunito', sans-serif;
-
-    margin-left: auto;
-    margin-right: auto;
-    width: 45%;
+    background-image: url("assets/wallpaper.jpg");
+    font-family: 'Roboto Mono', monospace;
+    background-size: 15%;
+    background-attachment:fixed;
+    margin: 2px;
+    pointer-events: none;
 }
-
-body bold {
-    font-weight: bold;
+#container {
+    max-width: 850px;
+    margin: 0 auto;
 }
-
-a:link {
-    color: green;
-    background-color: transparent;
-    text-decoration: none;
-}
-
-a:hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-nav ul {
-    padding-left: 0;
-    width: 100%;
-    margin-bottom: 4rem;
-    list-style: none;
+#flex {
     display: flex;
-    justify-content: center
+    max-width:850px;
+}
+/* \/ Main Content \/ */
+
+/* topbar */
+.topbar {
+    color: wheat;
+    height:150px;
+    margin-bottom: 5px;
+    background-color: #a52c5d;
+    background-image: url("assets/whale.gif");
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: 20% 50%;
+    border: 1px solid black;
 }
 
-nav ul li {
-    padding: .5rem;
-    display: inline;
-    min-width: 15%;
+h1 {
+    padding-left: 20px;
+}
+
+/* main */
+main {
+    width: 74%;
+    background-color: #6a4158;
+    border: 1px solid black;
+}
+
+.main-title {
+    color: wheat;
+    padding: 2px;
+    height:25px;
+    background-image: url("assets/bar.png");
+    border-bottom: 1px solid black;
+}
+
+#main-text {
+    font-size: 14px;
+    padding: 12px;
+}
+
+#purplebarimg {
+    width: 38rem;
+    user-select: none;
+}
+
+/* sidebar */
+sidebar {
+    width: 30%;
+    margin-left: 5px;
+    background-color: #6a4158;
+    background-image: url("assets/shark.png");
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: 90% 95%;
+    border: 1px solid black;
+}
+
+.sidebar-title {
+    color: wheat;
+    padding: 2px;
+    height:25px;
+    background-image: url("assets/bar.png");
+    border-bottom: 1px solid black;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+li {
+    list-style: none;
+    padding: 3px 0px 3px 20px;
+    background-image: url("assets/arrow.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 12px;
+}
+
+/* footer */
+footer {
+    color: wheat;
+    background-image: url("assets/bar.png");
+    border: 1px solid black;
+    height:25px;
     text-align: center;
-    font-size: 1.2rem;
-    font-weight: 400
-}
-
-nav ul li:nth-child(1) {
-    border-bottom: 4px solid red
-}
-
-nav ul li:nth-child(2) {
-    border-bottom: 4px solid green
-}
-
-nav ul li:nth-child(3) {
-    border-bottom: 4px solid blue
-}
-
-link {
-    color: green;
-    background-color: transparent;
-    text-decoration: none;
-}
-  
-visited {
-    color: pink;
-    background-color: transparent;
-    text-decoration: none;
-}
-  
-hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
-}
-  
-active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-#rp3plusSiteArt {
-    height: 230px;
-    width: auto;
-    position: absolute;
-    left: 2rem;
-    top: 10rem;
-    z-index: -1;
-}
-
-#musicNotesSiteArt {
-    height: 140px;
-    width: auto;
-    position: absolute;
-    right: 2rem;
-    top: 22rem;
-    z-index: -1;
-}
-
-.bgBox {
-    background-color: #dfdfdf;
-    outline: 2px solid #000000;
-    outline-offset: 8px;
-    box-shadow: 0 0 0 8px #dfdfdf , 20px 20px #888888;
+    padding: 2px;
+    margin-top: 5px;
 }
