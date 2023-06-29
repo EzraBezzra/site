@@ -41,7 +41,7 @@ h1 {
 
 /* main */
 main {
-    width: 74%;
+    width: 280%;
     background-color: #6a4158;
     border: 1px solid black;
 }
@@ -56,22 +56,13 @@ main {
 }
 
 #main-text {
-    
     padding: 12px;
 }
 
 #purplebarimg {
-    width: 38rem;
+    max-width: 100%;
     user-select: none;
     pointer-events: none;
-}
-
-#screen {
-    position: absolute;
-    margin-left: 208px;
-    margin-top: 5px;
-    width: 120px;
-    height: auto;
 }
 
 /* side */
